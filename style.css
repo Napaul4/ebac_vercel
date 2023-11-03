@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE57C;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body > header {
+    background-color: #B47501;
+    padding: 32px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1,
+section h2,
+section h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li,
+.social-links li {
+    list-style-type: none;
+    margin-left: 16px;
+    display: inline;
+    font-size: 20px;
+}
+
+.container > div {
+    display: flex;
+    margin-top: 32px;
+}
+
+.store-front {
+   width: 50%;
+   margin-right: 16px;
+}
+
+section h2,
+section p,
+.articles h3
+{
+    margin-top: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+article p {
+    margin-bottom: 8px;
+}
+
+.legomini {
+    width: 100%;
+}
+
+.bottom-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.bottom-product img {
+    width: 20px;
+    margin: 0px 8px;
+}
+
+#menu {
+    background-color: #FFB11D;
+}
+
+#menu h2 {
+    margin: 16px 0px;
+    padding-top: 16px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 8px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form button {
+    background-color: #B47501;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d79419;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #B47501;
+}
+
+body > footer {
+    background-color: #B47501;
+    margin: 0 auto;
+    padding: 32px 0;
+}
